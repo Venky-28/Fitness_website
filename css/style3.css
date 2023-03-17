@@ -1,0 +1,445 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600&display=swap");
+*{
+    font-family: 'Nunito', sans-serif;
+    padding: 0%;
+    margin: 0%;
+    text-decoration: none;
+}
+
+body{
+    background-color: black;
+}
+
+
+#back-to-top-btn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  font-size: 26px;
+  width: 50px;
+  height: 50px;
+  background-color: #fff;
+  color: #333;
+  cursor: pointer;
+  outline: none;
+  border: 3px solid #333;
+  border-radius: 50%;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in-out;
+  transition-property: background-color, color;
+}
+#back-to-top-btn:hover, #back-to-top-btn:focus {
+  background-color: red;
+  color: #fff;  
+}
+
+
+/*Nav bar starts*/
+
+nav{
+    background: #000;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  
+  
+  nav .mainMenu{
+    display: flex;
+    list-style: none;
+    margin-right: 120px;
+} 
+  
+  
+  nav .mainMenu li a{
+    display: inline-block;
+    padding: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+  }
+  
+  nav .mainMenu li a:hover{
+    background: #f00;
+  }
+  
+  
+  nav .mainMenu li button{
+    background-color: yellow;
+    height: 40px;
+    width: 100px;
+    cursor: pointer;
+    border-radius: 9px 9px 9px 9px;
+    font-size: 17px;
+    font-weight: bold;
+    position: relative;
+    left: 50px;
+    top: 5px;
+  }
+  
+  
+  nav .mainMenu li button:hover{
+    transform: scale(1.1);
+  }
+  
+  nav .openMenu{
+    font-size: 2rem;
+    margin: 20px;
+    display: none;
+    cursor: pointer;
+  }
+  
+  nav .mainMenu .closeMenu , .icons i{
+    font-size: 2rem;
+    display: none;
+    cursor: pointer;
+  }
+  
+  .fa-facebook:hover{color: orange;}
+  .fa-twitter:hover{color: orange;}
+  .fa-instagram:hover{color: orange;}
+  
+  
+  nav .logo{
+    font-size: 40px;
+    font-weight: bolder;
+    cursor: pointer;
+    margin-left: 40px;
+  }
+  
+  nav .logo span{
+    color: red; 
+  }
+  
+  /*Nav bar end*/
+    
+
+
+/*About*/
+
+
+.about img{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+
+.about h1{
+    position: absolute;
+    font-size: 6vw;
+    color: red;
+    -webkit-text-stroke: 0.3vw red;
+    margin-top: -200px;
+    margin-left: 50px;
+}
+
+
+.parent{
+    margin-left: 30px;
+}
+
+.parent .child1{
+    height: 350px;
+    width: 400px;
+    border: 1px solid gray;
+}
+
+.parent .child2{
+    height: 350px;
+    width: 400px;
+    border: 1px solid gray;
+}
+.parent .child3{
+    height: 350px;
+    width: 400px;
+    border: 1px solid gray;
+}
+
+.parent .child1 img{
+    height: 350px;
+    width: 400px;
+    object-fit: cover;
+}
+
+
+.parent .child2 img{
+    height: 350px;
+    width: 400px;
+    object-fit: cover;
+}
+
+.parent .child3 img{
+    height: 350px;
+    width: 400px;
+    object-fit: cover;
+}
+
+
+.parent{
+    display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+	grid-gap: 30px;
+}
+
+
+.word{
+    display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+	grid-gap: 40px;
+}
+
+
+.text1,.text2{
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 50px;
+    font-size: 20px;
+    color: red;
+}
+
+.text3{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+    margin-right: 10px;
+    color: red;
+}
+
+.word p{
+    font-size: 17px;
+    color: gray;
+}
+
+
+.about-image{
+    margin-left: 70px;
+}
+
+
+
+
+.about1 h1,p{
+    color: white;
+}
+
+
+.content{
+    position: absolute;
+    margin-left: 760px;
+    margin-top: -570px;
+}
+
+.content h1{
+    color: #f00;
+    font-size: 70px;
+    font-family: "Oswald", sans-serif;
+    -webkit-text-stroke: 2px white;
+}
+
+.content p{
+    font-size: 22px;
+}
+
+.btn{
+    border: 1px solid greenyellow;
+    background: greenyellow;
+    width: 120px;
+    height: 40px;
+    margin-top: 50px;
+    border-radius: 5px 5px 5px 5px;
+  }
+  
+  .btn a{
+    position: absolute;
+    color: black;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-weight: bolder;
+  }
+  
+  
+  .btn:hover{
+    transform: scale(1.1);
+  }
+  
+
+.blog h1{
+    text-align: center;
+    color: black;
+    margin-top: 150px;
+    -webkit-text-stroke: 2px white;
+    font-size: 120px;
+    font-family: "Oswald", sans-serif;
+}
+
+.blog-image{
+    margin-left: 90px;
+    margin-top: 60px;
+}
+
+
+.blog-image .img1{
+    margin-right: 30px;
+}
+
+.text-blog{
+    margin-left: 90px;
+    margin-top: 10px;
+    float: left;
+}
+
+.text-blog1{
+    margin-left: 682px;
+    margin-top: 10px;
+
+}
+
+.text-blog h4,h2{
+    color: #fff;
+}
+
+.text-blog1 h4,h2{
+    color: #fff;
+}
+
+.video {
+    margin-top: 120px;
+}
+
+
+.end, .end1, .share{
+    display: flex;
+    justify-content: center;
+}
+
+
+.end h1{
+    color: red;
+    font-size: 45px;
+    font-family: "Oswald", sans-serif;
+    margin-top: 30px;
+}
+
+.end h1 span{
+    color: #fff;
+}
+
+
+.end1 ul li a{
+    color: #fff;
+}
+
+.end1 ul li a:hover{
+    color: greenyellow;
+    text-decoration: underline;
+}
+
+.end1 ul li{
+    display: inline-block;
+    padding: 9px;
+    font-size: 20px;
+}
+
+
+.share a ion-icon{
+    color: #fff;
+    font-size: 20px;
+    padding: 10px;
+}
+
+
+.share a:hover ion-icon{
+    transform: scale(1.1);
+    background-color: #f00;
+}
+
+
+/*footer start*/
+
+footer{
+    border: 1px solid  #111;
+    background-color: #111;
+    height: 70px;
+    margin-top: 40px;
+  }
+  
+  footer h3{
+    color: #fff;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+  }
+  
+  /*footer end*/
+  
+
+
+  @media(max-width: 800px){
+    nav .mainMenu{
+      height: 100vh;
+      width: 490px;
+      position: fixed;
+      top: 0;
+      right: 0;
+      left: 0;
+      z-index: 10;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background: #000;
+      transition: top -1.5s ease;
+      display: none;
+    }
+  
+    nav .mainMenu .closeMenu{
+      display: block;
+      position: absolute;
+      top: 20px;
+      right: 20px;
+    }
+  
+    nav .openMenu{
+      display: block;  
+  }
+  
+    nav .mainMenu li a:hover{
+      background: none;
+      color: orange;
+      font-size: 1.6rem;
+  }
+  
+    .icons i{
+      display: inline-block;
+      padding: 12px;
+    }
+  
+    .icons i:hover{
+      transform: scale(1.2);
+    }
+  
+  
+    nav .logo{
+      font-size: 40px;
+      font-weight: bolder;
+      cursor: pointer;
+      margin-left: 40px;
+      position: relative;
+      top: 17px;
+    }
+  
+   nav .mainMenu li button{
+    position: relative;
+    margin-right: 100px;
+  }  
+
+  #back-to-top-btn{
+    font-size: 18px;
+    width: 32px; 
+    height: 32px; 
+  }
+  
+  
+  }

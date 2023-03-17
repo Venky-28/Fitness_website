@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BEFIT</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="images/logo.png" rel="icon"> 
+    <link href="css/mystyle1.1.css" rel="stylesheet">
+    <script type="text/javascript" src="js/script1.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="full-page">
+        <button id="back-to-top-btn">
+            <a href="#"><i class="fas fa-angle-double-up"></i></a>
+        </button>
+
+<!-- header section starts      -->
+
+<nav>
+    <div class="logo"><font>BE</font>FIT</div>
+    <div class="openMenu"><i class="fa fa-bars"></i></div>
+    <ul class="mainMenu">
+        <li><a href="#" onclick="myfunction()">Home</a></li>
+        <li><a href="#" onclick="myfunction()">About</a></li>
+        <li><a href="#" onclick="myfunction()">Product</a></li>
+        <li><a href="#" onclick="myfunction()">Gallery</a></li>
+        <li><a href="#" onclick="myfunction()">Contact</a></li> <br>
+        <li><button class='loginbtn' onclick="document.getElementById('login-form').style.display='block'">Login</button></li> <br>
+        <div class="closeMenu"><i class="fa fa-times"></i></div>
+        <span class="icons">
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-twitter"></i>
+        </span>
+    </ul>
+</nav>
+
+    <!-- header section end      -->
+
+        <div id='login-form'class='login-page'>
+            <div class="form-box">
+                <div class='button-box'>
+                    <div id='btn'></div>
+                    <button type='button'onclick='login()'class='toggle-btn'>Log In</button>
+                    <button type='button'onclick='register()'class='toggle-btn'>Register</button>
+                </div>
+                <form id='login' class='input-group-login' method="post" action="logincheck.php">
+                    <input type='text'class='input-field'placeholder='Email Id' required name="user">
+		    <input type='password'class='input-field'placeholder='Enter Password' required name="pass">
+		    <input type='checkbox'class='check-box'><span  style="color: #fff;">Remember Password</span>
+		    <button type='submit' name="submit" class='submit-btn'>Log in</button>
+		 </form>
+		 <form id='register' class='input-group-register'  method="post" action="process.php" enctype="multipart/form-data">
+		     <input type='text'class='input-field'placeholder='Name' required name="user">
+		     <input type='email'class='input-field'placeholder='Email Id' required name="email">
+             <input type='number'class='input-field'placeholder='Phone Number' required name="phone">
+		     <input type='password'class='input-field'placeholder='Password' required name="pass"><br>
+		     <input type='file'class='customfile'  required name="pic" id="uploadbtn">
+             <label for="uploadbtn" class="pic"> <i class="fa-solid fa-upload"></i> Upload Pic</label><br> <br>
+             <label class="name">Gender</label>
+             <br><input type="radio" name="gender" value="Male" required>&nbsp <label class="name">Male</label>&nbsp
+             <input type="radio" name="gender" value="Female"class="name" required>&nbsp <label class="name">Female</label><br>
+		     <input type='checkbox'class='check-box'><span style="color: #fff;">I agree to the terms and conditions</span>
+             <button type='submit' name="submit" class='submit-btn'>Register</button>
+	         </form>
+            </div>
+        </div>
+    </div>
+
+    
+
+
+
+<br>
+<br>
+
+
+
+
+
+
+
+
+    
+
+
+    <script src="js/script.js"></script>
+
+
+    <script>
+        function myfunction(){
+            alert("PLEASE LOGIN FIRST!!!");
+        }
+    </script>
+
+
+    <script>
+        var x=document.getElementById('login');
+		var y=document.getElementById('register');
+		var z=document.getElementById('btn');
+		function register()
+		{
+			x.style.left='-400px';
+			y.style.left='50px';
+			z.style.left='110px';
+		}
+		function login()
+		{
+			x.style.left='50px';
+			y.style.left='450px';
+			z.style.left='0px';
+		}
+	</script>
+	<script>
+        var modal = document.getElementById('login-form');
+        window.onclick = function(event) 
+        {
+            if (event.target == modal) 
+            {
+                modal.style.display = "none";
+            }
+        }
+    </script>
+</body>
+</html>

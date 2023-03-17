@@ -1,0 +1,108 @@
+@media(max-width: 800px){  
+  nav .mainMenu{
+    height: 100vh;
+    width: 490px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 10;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #000;
+    transition: top 1s ease;
+    display: none;
+  }
+
+  nav .mainMenu .closeMenu{
+    display: block;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+
+  nav .openMenu{
+    display: block;  
+}
+
+  nav .mainMenu li a:hover{
+    background: none;
+    color: orange;
+    font-size: 1.6rem;
+}
+
+  .icons i{
+    display: inline-block;
+    padding: 12px;
+  }
+
+  .icons i:hover{
+    transform: scale(1.2);
+  }
+
+
+  nav .logo{
+    font-size: 40px;
+    font-weight: bolder;
+    cursor: pointer;
+    margin-left: 40px;
+    position: relative;
+    top: 17px;
+  }
+
+ nav .mainMenu li button{
+  position: relative;
+  margin-right: 100px;
+} 
+
+
+#back-to-top-btn{
+  font-size: 18px;
+  width: 32px; 
+  height: 32px; 
+}
+
+.content{
+position: absolute;
+top: 200px;
+left: 50px;
+}
+
+#gym{
+  background-color: black;
+  border: 2px solid gray;
+  margin-top: 40px;
+  height: 55px;
+  width: 200px;
+  margin-left: 135px;
+}
+
+.features{
+  color: #f00;
+  margin-top: 10px;
+  font-size: 26px;
+  text-align: center;
+}
+
+.line1{
+  position: absolute;
+  border: 1px solid gray;
+  width: 135px;
+  margin-top: -33px;
+}
+
+
+.line2{
+  position: absolute;
+  border: 1px solid gray;
+  width: 139px;
+  margin-left: 340px;
+  margin-top: -33px;
+}
+
+
+
+
+
+}

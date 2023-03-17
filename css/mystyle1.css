@@ -1,0 +1,245 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600&display=swap");
+*{
+    font-family: 'Nunito', sans-serif;
+    padding: 0%;
+    margin: 0%;
+    text-decoration: none;
+}
+
+body{
+}
+
+.heading{
+    height: 40px;
+    border: 1px solid #ddd;
+    box-shadow: 4px 4px 4px grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading .box{
+    font-size: 15px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.heading .box font{
+    color: #f00;
+}
+
+
+
+
+/*Nav bar starts*/
+
+nav{
+    background: #000;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  
+  
+  nav .mainMenu{
+    display: flex;
+    list-style: none;
+    margin-right: 120px;
+  } 
+  
+  
+  
+  nav .mainMenu li a{
+    display: inline-block;
+    padding: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+  }
+  
+  nav .mainMenu li a:hover{
+    background: #f00;
+    cursor: pointer;
+  }
+  
+  
+  nav .mainMenu li button{
+    background-color: yellow;
+    height: 40px;
+    width: 100px;
+    cursor: pointer;
+    border-radius: 9px 9px 9px 9px;
+    font-size: 17px;
+    font-weight: bold;
+    position: relative;
+    left: 50px;
+    top: 5px;
+  }
+  
+  
+  nav .mainMenu li button:hover{
+    transform: scale(1.1);
+  }
+  
+  
+  
+  nav .openMenu{
+    font-size: 2rem;
+    margin: 20px;
+    display: none;
+    cursor: pointer;
+  }
+  
+  nav .mainMenu .closeMenu , .icons i{
+    font-size: 2rem;
+    display: none;
+    cursor: pointer;
+  }
+  
+  .fa-facebook:hover{color: orange;}
+  .fa-twitter:hover{color: orange;}
+  .fa-instagram:hover{color: orange;}
+  
+  
+  nav .logo{
+    font-size: 40px;
+    font-weight: bolder;
+    cursor: pointer;
+    margin-left: 40px;
+  }
+  
+  nav .logo span{
+    color: red; 
+  }
+
+
+  
+  /*Nav bar end*/
+  
+  img{
+    border-radius: 50px;
+  }
+  
+  .box1{
+    width: 1050px;
+    height: 450px;
+    border: 1px solid #ddd;
+    box-shadow: 14px 24px 4px grey;
+    margin-top: 50px;
+    margin-left: 190px;
+}
+
+.box1 h1{
+    margin-left: 40px;
+    margin-top: 60px;
+    float: left;
+}
+
+.box1 .pic{
+    margin-top: 40px;
+    position: relative;
+    left: 40px;
+    bottom: 30px;
+}
+
+.box1 .edit{
+    margin-left: 490px;
+    margin-top: 15px;
+    position: relative;
+    bottom: 140px;
+}
+
+.edit button{
+    border: 1px solid yellow;
+    background-color: yellow;
+    height: 40px;
+    width: 150px;
+    color: black;
+    border-radius: 50px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.edit button:hover{
+    transform: scale(1.1);
+}
+
+.name{
+    margin-top: -40px;
+}
+
+.name h5{
+    margin-left: 90px;
+}
+
+.spell{
+    margin-left: 90px;
+}
+
+.name .line{
+    border: 1px solid #ddd;
+    width: 400px;
+    margin-left: 90px;
+    margin-top: 10px;
+}
+
+.name1 h5{
+    margin-left: 90px;
+}
+
+.spell1{
+    margin-left: 90px;
+}
+
+.name1 .line{
+    border: 1px solid #ddd;
+    width: 400px;
+    margin-left: 90px;
+    margin-top: 10px;
+}
+
+
+.name2 h5{
+    margin-left: 90px;
+}
+
+.spell2{
+    margin-left: 90px;
+}
+
+.name2 .line{
+    border: 1px solid #ddd;
+    width: 400px;
+    margin-left: 90px;
+    margin-top: 10px;
+}
+
+
+.name3 h5{
+    margin-left: 90px;
+}
+
+.spell3{
+    margin-left: 90px;
+}
+
+.name3 .line{
+    border: 1px solid #ddd;
+    width: 400px;
+    margin-left: 90px;
+    margin-top: 10px;
+}
+
+
+.box2{
+    float: left;
+}
+
+
+.box3{
+    margin-left: 450px;
+    margin-top: -41px;
+}
+
+

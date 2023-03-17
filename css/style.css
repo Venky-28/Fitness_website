@@ -1,0 +1,273 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.full-page
+{
+  height: 100%;
+	width: 100%;
+	background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(images/img7.jpg);
+	background-position: center;
+	background-size: cover;
+	position: absolute;
+}
+
+#back-to-top-btn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  font-size: 26px;
+  width: 50px;
+  height: 50px;
+  background-color: #fff;
+  color: #333;
+  cursor: pointer;
+  outline: none;
+  border: 3px solid #333;
+  border-radius: 50%;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in-out;
+  transition-property: background-color, color;
+}
+#back-to-top-btn:hover, #back-to-top-btn:focus {
+  background-color: #333;
+  color: #fff;  
+}
+
+
+/*Nav bar starts*/
+
+nav{
+    background: #000;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+	}
+  
+  
+  
+  nav .mainMenu{
+    display: flex;
+    list-style: none;
+    margin-right: 120px;
+  } 
+  
+  
+  
+  nav .mainMenu li a{
+    display: inline-block;
+    padding: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+  }
+  
+  nav .mainMenu li a:hover{
+    background: #f00;
+  }
+  
+  
+  nav .mainMenu li button{
+    background-color: yellow;
+    height: 40px;
+    width: 100px;
+    cursor: pointer;
+    border-radius: 9px 9px 9px 9px;
+    font-size: 17px;
+    font-weight: bold;
+    position: relative;
+    left: 50px;
+    top: 5px;
+  }
+  
+  
+  nav .mainMenu li button:hover{
+    transform: scale(1.1);
+  }
+  
+  
+  
+  nav .openMenu{
+    font-size: 2rem;
+    margin: 20px;
+    display: none;
+    cursor: pointer;
+  }
+  
+  nav .mainMenu .closeMenu , .icons i{
+    font-size: 2rem;
+    display: none;
+    cursor: pointer;
+  }
+  
+  .fa-facebook:hover{color: orange;}
+  .fa-twitter:hover{color: orange;}
+  .fa-instagram:hover{color: orange;}
+  
+  
+  nav .logo{
+    font-size: 40px;
+    font-weight: bolder;
+    cursor: pointer;
+    margin-left: 40px;
+  }
+  
+  nav .logo font{
+    color: red; 
+  }
+
+
+  
+  /*Nav bar end*/
+
+
+#login-form
+{
+    display: none;
+}
+.form-box
+{
+    width:380px;
+	height:500px;
+	position:relative;
+	margin:2% auto;
+	background:rgba(0,0,0,0.3);
+	padding:10px;
+    overflow: hidden;
+}
+.button-box
+{
+	width:220px;
+	margin:35px auto;
+	position:relative;
+	box-shadow: 0 0 20px 9px #ff61241f;
+	border-radius: 30px;
+}
+.toggle-btn
+{
+	padding:10px 30px;
+	cursor:pointer;
+	background:transparent;
+	border:0;
+	outline: none;
+	position: relative;
+  color: #fff;
+}
+#btn
+{
+	top: 0;
+	left:0;
+	position: absolute;
+	width: 110px;
+	height: 100%;
+	background: #F3C693;
+	border-radius: 30px;
+	transition: .5s;
+}
+.input-group-login
+{
+	top: 150px;
+	position:absolute;
+	width:280px;
+	transition:.5s;
+}
+.input-group-register
+{
+    top: 100px;
+	position:absolute;
+	width:280px;
+	transition:.5s;
+}
+.input-field
+{
+	width: 100%;
+	padding:10px 0;
+	margin:5px 0;
+	border-left:0;
+	border-top:0;
+	border-right:0;
+	border-bottom: 1px solid #999;
+	outline:none;
+	background: transparent;
+}
+.submit-btn
+{
+	width: 85%;
+	padding: 10px 30px;
+	cursor: pointer;
+	display: block;
+	margin: auto;
+	background: #F3C693;
+	border: 0;
+	outline: none;
+	border-radius: 30px;
+}
+.check-box
+{
+	margin: 30px 10px 34px 0;
+}
+span
+{
+	color:#777;
+	font-size:12px;
+	bottom:68px;
+	position:absolute;
+}
+#login
+{
+	left:50px;
+}
+#login input
+{
+	color:white;
+	font-size:15;
+}
+#register
+{
+	left:450px;
+}
+#register input
+{
+	color:white;
+	font-size: 15;
+}
+
+
+#register .name{
+  color: gray;
+  margin-top: 10px;
+}
+
+
+
+input[type="file"]{
+  display: none;
+}
+
+#register .pic{
+  display: inline-block;
+  text-transform: uppercase;
+  background: #c0392b;
+  text-align: center;
+  padding: 5px 10px;
+  user-select: none;
+  cursor: pointer;
+  border-radius: 3px;
+  color: #fff;
+  font-size: 12px;
+  letter-spacing: 1.5px;
+  font-family: 'poppins', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+

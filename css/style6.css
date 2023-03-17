@@ -1,0 +1,445 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600&display=swap");
+
+
+/* header */
+
+*{
+    font-family: 'Nunito', sans-serif;
+    padding: 0%;
+    margin: 0%;
+    text-decoration: none;
+}
+
+body{
+    background-color: #242661;
+}
+
+
+#back-to-top-btn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  font-size: 26px;
+  width: 50px;
+  height: 50px;
+  background-color: #fff;
+  color: #333;
+  cursor: pointer;
+  outline: none;
+  border: 3px solid #333;
+  border-radius: 50%;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in-out;
+  transition-property: background-color, color;
+}
+#back-to-top-btn:hover, #back-to-top-btn:focus {
+  background-color: red;
+  color: #fff;  
+}
+
+
+
+/*Nav bar starts*/
+
+nav{
+    background: #000;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  
+  
+  nav .mainMenu{
+    display: flex;
+    list-style: none;
+    margin-right: 120px;
+  } 
+  
+  
+  nav .mainMenu li a{
+    display: inline-block;
+    padding: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+  }
+  
+  nav .mainMenu li a:hover{
+    background: #f00;
+  }
+  
+  
+  nav .mainMenu li button{
+    background-color: yellow;
+    height: 40px;
+    width: 100px;
+    cursor: pointer;
+    border-radius: 9px 9px 9px 9px;
+    font-size: 17px;
+    font-weight: bold;
+    position: relative;
+    left: 50px;
+    top: 5px;
+  }
+  
+  
+  nav .mainMenu li button:hover{
+    transform: scale(1.1);
+  }
+  
+  nav .openMenu{
+    font-size: 2rem;
+    margin: 20px;
+    display: none;
+    cursor: pointer;
+  }
+  
+  nav .mainMenu .closeMenu , .icons i{
+    font-size: 2rem;
+    display: none;
+    cursor: pointer;
+  }
+  
+  .fa-facebook:hover{color: orange;}
+  .fa-twitter:hover{color: orange;}
+  .fa-instagram:hover{color: orange;}
+  
+  
+  nav .logo{
+    font-size: 40px;
+    font-weight: bolder;
+    cursor: pointer;
+    margin-left: 40px;
+  }
+  
+  nav .logo span{
+    color: red; 
+  }
+  
+  /*Nav bar end*/
+    
+  
+
+
+
+/* contact US*/
+
+.container1 p{
+    text-align: center;
+    margin-top: 65px;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.title{
+	color: white;
+}
+
+.cont{
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #black;
+}
+
+.form{
+    background-color: #fff;
+    padding: 40px 20px;
+    width: 100%;
+    max-width: 500px;
+    margin-bottom: 60px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px #666;
+}
+
+
+
+.input-data{
+    position: relative;
+}
+.title{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+}
+
+
+
+.input{
+    padding: 10px;
+    width: 500%;
+    max-width: 450px;
+    box-sizing: border-box;
+    outline: none;
+    border: 1px solid #04AA6D;
+}
+
+.input1{
+    padding: 10px;
+    width: 100%;
+    max-width: 450px;
+    box-sizing: border-box;
+    outline: none;
+    border: 1px solid #04AA6D;
+}
+.input2{
+    padding: 10px;
+    width: 100%;
+    max-width: 450px;
+    box-sizing: border-box;
+    outline: none;
+    border: 1px solid #04AA6D;
+}
+
+textarea{
+    border: 1px solid #04AA6D;
+    outline: none;
+}
+
+
+.sub{
+    border: 1px solid   blueviolet;
+    width: 90px;
+    height: 30px;
+    border-radius: 5px;
+    color: #fff;
+    background-color: blueviolet;
+}
+
+
+/* footer*/
+
+.one{
+    margin-left: 120px;
+    float: left;
+}
+
+
+.two{
+    margin-left: 350px;
+}
+
+.three{
+    margin-left: 690px;
+    margin-top: -275px;
+}
+
+.four{
+    margin-left: 1010px;
+    position: absolute;
+    margin-top: -245px;
+}
+
+.links strong{
+    color: red;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.links pre a{
+    color: #fff;
+}
+
+.links pre a:hover{
+    color: greenyellow;
+}
+
+.hours strong{
+    color: red;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+
+.hours pre{
+    color: #fff;
+}
+
+pre .time{
+    color: greenyellow;
+}
+
+.address strong{
+    color: #fff;
+}
+
+
+.address strong{
+    color: red;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.address .number{
+        color: #fff;
+}
+
+
+.three .address .share a ion-icon{
+    color: #fff;
+    font-size: 20px;
+}
+
+.three .address .share a:hover ion-icon{
+    transform: scale(2.1);
+    color: greenyellow;
+}
+
+.news strong{
+    color: red;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+
+.news span{
+    color: #fff;
+}
+
+.news input{
+    background-color: #111;
+    border: 1px solid black;
+    border-radius: 10px 10px 10px 10px;
+    height: 40px;
+    width: 200px;
+}
+
+
+.three button{
+    background-color: #f00;
+    border: 1px solid red;
+    height: 40px;
+    width: 200px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+
+.three button a{
+    color: #fff;
+    font-size: 19px;
+    font-weight: bolder;
+}
+
+
+.three button:hover{
+    transform: scale(1.1);
+}
+
+
+
+
+.four button{
+    background-color: #f00;
+    border: 1px solid red;
+    height: 40px;
+    width: 150px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.four button:hover{
+    transform: scale(1.1);
+}
+
+.four button a{
+    color: #fff;
+    font-size: 19px;
+    font-weight: bolder;
+}
+
+
+.four{
+    clear: left;
+}
+
+.footer1{
+    margin-top: 100px;
+}
+
+
+ .footer1{
+    border: 1px solid  #111;
+    background-color: #111;
+    height: 70px;
+  }
+  
+  .footer1 h3{
+    color: #fff;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+  }
+
+
+  @media(max-width: 800px){  
+    nav .mainMenu{
+      height: 100vh;
+      width: 490px;
+      position: fixed;
+      top: 0;
+      right: 0;
+      left: 0;
+      z-index: 10;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background: #000;
+      transition: top 1s ease;
+      display: none;
+    }
+  
+    nav .mainMenu .closeMenu{
+      display: block;
+      position: absolute;
+      top: 20px;
+      right: 20px;
+    }
+  
+    nav .openMenu{
+      display: block;  
+  }
+  
+    nav .mainMenu li a:hover{
+      background: none;
+      color: orange;
+      font-size: 1.6rem;
+  }
+  
+    .icons i{
+      display: inline-block;
+      padding: 12px;
+    }
+  
+    .icons i:hover{
+      transform: scale(1.2);
+    }
+  
+  
+    nav .logo{
+      font-size: 40px;
+      font-weight: bolder;
+      cursor: pointer;
+      margin-left: 40px;
+      position: relative;
+      top: 17px;
+    }
+  
+   nav .mainMenu li button{
+    position: relative;
+    margin-right: 100px;
+  }  
+
+
+  #back-to-top-btn{
+    font-size: 18px;
+    width: 32px; 
+    height: 32px; 
+  }
+  
+  
+  }
+    
+  
